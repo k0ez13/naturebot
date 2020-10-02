@@ -1,6 +1,6 @@
 {
-  "name": "walterbot",
-  "version": "3.0.0",
+  "name": "naturebot",
+  "version": "3.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,9 +11,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MichaelPavlovic/DiscordBot-V12"
+    "url": "git+https://github.com/k0ez13/naturebot"
   },
-  "author": "Michael",
+  "author": "Koez",
   "license": "ISC",
   "engines": {
     "node": "12.x"
