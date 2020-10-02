@@ -13,7 +13,7 @@ module.exports = class CreatorCommand extends BaseCommand {
       .setColor(blue_dark)
       .setThumbnail(message.guild.iconURL())
       .setTitle("Creator")
-      .addField('Bot owner:', 'Michael')
+      .addField('Bot owner:', 'Koez <3')
       .setFooter(`© ${message.guild.me.displayName}`, client.user.displayAvatarURL());
 
     message.channel.send(embed);
