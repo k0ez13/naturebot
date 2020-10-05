@@ -1,4 +1,7 @@
-const Discord = require("discord.js");
+const superagent = require("node-fetch");
+const Discord = require('discord.js')
+
+const rp = require('request-promise-native');
 const BaseCommand = require('../../utils/structures/BaseCommand');
 
 class testCommand extends BaseCommand {
@@ -6,27 +9,33 @@ class testCommand extends BaseCommand {
       super('test', 'test', ['test', 'test'], 'test');
     }
 
-async run  (client, message, args) {
+async run  (client, message, args, level) {
 
-    var superagent = require('superagent');
+    var errMessage = "This is not an NSFW Channel";
+  if (!message.channel.nsfw) {
+      message.react('💢');
 
-    if (!message.channel.nsfw) return message.channel.send('You must use this command in an nsfw lounge!') 
+      return message.reply(errMessage)
+      .then(msg => {
+      msg.delete({ timeout: 3000 })
+      })
+      
+  }
 
-    var lo = new Discord.MessageEmbed()
-                .setDescription(`Please wait... <a:Loading:592829210054098944>`)
-                .setTimestamp()
-
-    message.channel.send(lo).then(m => {
-
-        superagent.get('https://nekobot.xyz/api/image').query({ type: '4k'}).end((err, response) => {
-
-            var embed_nsfw = new Discord.MessageEmbed()
-                .setDescription(`:underage:\n**[L'image not loading? click here](${response.body.message})**`)
-                .setTimestamp()
-                .setImage(response.body.message)
-            
-            m.edit(embed_nsfw);
-        });
+  return rp.get('http://api.obutts.ru/butts/0/1/random').then(JSON.parse).then(function(res)  {
+    return rp.get({
+        url:'http://media.obutts.ru/' + res[0].preview,
+        encoding: null
     });
- }
-}
+}).then(function(res)   {
+
+const ass = new Discord.MessageEmbed()
+      .setTitle("Ass")
+      .setColor(`#FF0000`)
+      .setImage("attachment://file.png").attachFiles([{ attachment: res, name: "file.png" }])
+
+
+    message.channel.send(ass);
+});
+  }
+  };
