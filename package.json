@@ -26,7 +26,8 @@
     "bufferutil": "^4.0.1",
     "common-tags": "^1.8.0",
     "dateformat": "^3.0.3",
-    "discord.js": "^12.1.1",
+    "discord.js": "^12.2.0",
+    "superagent": "^5.2.2",
     "dotenv": "^8.2.0",
     "node-fetch": "^2.6.0",
     "novelcovid": "^2.2.0",
@@ -37,6 +38,16 @@
     "weather-js": "^2.0.0",
     "ytdl-core": "^3.2.0",
     "ytdl-core-discord": "^1.2.1",
-    "ytpl": "^0.2.3"
+    "ytpl": "^0.2.3",
+    "@vitalets/google-translate-api": "4.0.0",
+    "erela.js": "1.1.8",
+    "firebase": "^7.20.0",
+    "jimp": "0.16.1",
+    "moment": "^2.27.0",
+    "ms": "2.1.2",
+    "parse-ms": "2.1.0",
+    "path": "0.12.7",
+    "steam-provider": "0.3.2",
+    "util": "0.12.3"
   }
 }
