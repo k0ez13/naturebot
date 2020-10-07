@@ -19,9 +19,10 @@ module.exports = class HelpCommand extends BaseCommand {
     //check if there is an argument
     if(!args[0]){
       help.setDescription(`Avaliable commands for ${message.guild.me.displayName}\nPrefix: **${client.prefix}**`);
-      help.addField(`**Misc [19]:**`, 'corona, creator, 8ball, gnome, help, instagram, math, meme, oceanman, ping, pokemon, poll, roll, serverinfo, steam, uptime, urban, userinfo, weather');
+      help.addField(`**Misc [20]:**`, 'corona, creator, 8ball, gnome, help, instagram, math, meme, oceanman, ping, pokemon, poll, roll, serverinfo, steam, uptime, urban, userinfo, weather, avatar');
       help.addField(`**Mod [6]:**`, 'ban, clear, kick, mute, say, unmute');
       help.addField(`**Giveaway [2]:**`, 'giveaway, reroll');
+      help.addField(`**NSFW  :underage: [10]:**`, '4k, anal, ass, hentai, hkitsune, hneko, holo, kemonomimi, neko, pussy');
       help.addField(`**Music [8]:**`, 'leave, loop, nowplaying, pause, play, queue, remove, skip');
 
       return message.channel.send(help);
