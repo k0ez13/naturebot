@@ -3,7 +3,7 @@ const Discord = require('discord.js');
  
 module.exports = class AvatarCommand extends BaseCommand {
     constructor() {
-      super('avatar', 'avatar', ['avatar'], 'avatar');
+      super('avatar', 'misc');
     }
   
     async run(client, message, args) {
@@ -19,7 +19,7 @@ module.exports = class AvatarCommand extends BaseCommand {
             embed.setThumbnail(user.displayAvatarURL())
             embed.setDescription(`This is ${user.tag}'s avatar.`)
             embed.setColor('RANDOM')
-            embed.setFooter("This is a test.")
+            embed.setFooter("xD")
             return message.channel.send(embed)
         }
     }
