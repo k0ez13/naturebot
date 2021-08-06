@@ -21,7 +21,7 @@ module.exports = class HelpCommand extends BaseCommand {
       help.setDescription(`Avaliable commands for ${message.guild.me.displayName}\nPrefix: **${client.prefix}**`);
       help.addField(`**Misc [20]:**`, 'corona, creator, 8ball, gnome, help, instagram, math, meme, oceanman, ping, pokemon, poll, roll, serverinfo, steam, uptime, urban, userinfo, weather, avatar');
       help.addField(`**Mod [7]:**`, 'ban, clear, kick, mute, say, unmute, hoststats');
-      help.addField(`**Giveaway [2]:**`, 'giveaway, reroll');
+      //help.addField(`**Giveaway [2]:**`, 'giveaway, reroll');
       help.addField(`**NSFW  :underage: [13]:**`, '4k, anal, ass, hentai, hkitsune, hneko, holo, kemonomimi, neko, pussy, boobs, hboobs, kanna');
       help.addField(`**Music [8]:**`, 'leave, loop, nowplaying, pause, play, queue, remove, skip');
 
