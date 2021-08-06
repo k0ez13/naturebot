@@ -22,6 +22,8 @@
     "node": "12.x"
   },
   "dependencies": {
+    "os": "^0.1.2",
+    "discord-buttons":"^4.0.0",
     "@discordjs/opus": "^0.3.2",
     "bufferutil": "^4.0.1",
     "common-tags": "^1.8.0",
@@ -31,6 +33,7 @@
     "node-fetch": "^2.6.0",
     "novelcovid": "^2.2.0",
     "random-puppy": "^1.1.0",
+    "superagent": "^6.1.0",
     "simple-youtube-api": "^5.2.1",
     "urban": "^0.3.2",
     "user-instagram": "^2.0.9",
