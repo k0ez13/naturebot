@@ -12,7 +12,9 @@ module.exports = class PlayCommand extends BaseCommand {
     super('play', 'music', ['p'], 'play [url] | [song]');
   }
 
+  
   async run(client, message, args) {
+   
     //check if the user is in a voice channel
     const { channel } = message.member.voice;
     if (!channel) return message.channel.send("**You need to join a voice channel to play a song!**");
@@ -29,6 +31,9 @@ module.exports = class PlayCommand extends BaseCommand {
 
     const serverQueue = message.client.queue.get(message.guild.id);
 
+    //teste 
+    ytpl.do_warn_deprecate = false;
+    
     const queueConstruct = {
       textChannel: message.channel,
       channel,
@@ -54,7 +59,7 @@ module.exports = class PlayCommand extends BaseCommand {
           url: songData.videoDetails.video_url,
           duration: duration,
           author: songData.videoDetails.author.name,
-          thumbnail: songData.videoDetails.thumbnail.thumbnails[0].url,
+          thumbnail: songData.videoDetails.thumbnails[0].url,
           requester: message.author
         };
 
@@ -92,7 +97,7 @@ module.exports = class PlayCommand extends BaseCommand {
             url: songData.videoDetails.video_url,
             duration: duration,
             author: songData.videoDetails.author.name,
-            thumbnail: songData.videoDetails.thumbnail.thumbnails[0].url,
+            thumbnail: songData.videoDetails.thumbnails[0].url,
             requester: message.author
           };
           if(serverQueue){
@@ -152,7 +157,9 @@ module.exports = class PlayCommand extends BaseCommand {
       }
     }
 
-    if (!serverQueue) {
+     
+    
+     if (!serverQueue) {
       message.client.queue.set(message.guild.id, queueConstruct);
       
       try {

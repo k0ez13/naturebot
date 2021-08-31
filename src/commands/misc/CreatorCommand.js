@@ -7,6 +7,7 @@ module.exports = class CreatorCommand extends BaseCommand {
     super('creator', 'misc', ['owner'], 'creator');
   }
 
+//rnaodm hahahahaahahahhahahah
   run(client, message, args) {
     //create an embed with some info about the bot creator and send it to the channel
     const embed = new MessageEmbed()

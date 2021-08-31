@@ -2,6 +2,8 @@ const BaseCommand = require('../../utils/structures/BaseCommand');
 const Discord = require("discord.js")
 
 
+
+//estou apenas testando o vim LMAO!
 module.exports = class MemeCommand extends BaseCommand {
   constructor() {
     super('avatar', 'avatar', ['misc'], 'avatar');
