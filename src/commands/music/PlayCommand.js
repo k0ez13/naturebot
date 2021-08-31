@@ -132,7 +132,7 @@ module.exports = class PlayCommand extends BaseCommand {
           url: songData.videoDetails.video_url,
           duration: duration,
           author: songData.videoDetails.author.name,
-          thumbnail: songData.videoDetails.thumbnail.thumbnails[0].url,
+          thumbnail: songData.videoDetails.thumbnails[0].url,
           requester: message.author
         };
 
