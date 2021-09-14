@@ -34,7 +34,7 @@ Right after running the update and compiling the code, just follow the following
 cd naturebot
 node ./src/bot.js
 ```
-If your console returns the bot's name along with its id "name#0000", it means the bot is working properly!
+If your console returns the bot's name along with its id "name#ID", it means the bot is working properly!
 
 ## Bot commands
 | Class | Commands |
