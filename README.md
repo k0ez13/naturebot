@@ -36,6 +36,15 @@ node ./src/bot.js
 ```
 If your console returns the bot's name along with its id "name#0000", it means the bot is working properly!
 
+## Bot commands
+| Class | Commands |
+| --- | --- |
+| `**Misc [20]:**`, | corona, creator, 8ball, gnome, help, instagram, math, meme, oceanman, ping, pokemon, poll, roll, serverinfo, steam, uptime, urban, userinfo, weather, avatar |
+      help.addField(`**Mod [7]:**`, 'ban, clear, kick, mute, say, unmute, hoststats');
+
+      help.addField(`**Music [9]:**`, 'leave, loop, nowplaying, pause, play, queue, remove, skip');
+      help.addField(`**NSFW [13]:**`, '4k, anal, ass, hentai, hkitsune, hneko, holo, kemonomimi, neko, pussy, boobs, hboobs, kanna');
+
 ## Contributing
 
 1. Fork it (<https://github.com/k0ez13/naturebot/fork>)
