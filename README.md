@@ -26,16 +26,17 @@ npm update && install
 | DISCORD_BOT_PREFIX =| n!  |
 | DISCORD_BOT_TOKEN = | [`Bot token`](https://discord.com/developers/applications) |
 | STEAM = | [`Steam token`](https://steamcommunity.com/dev/apikey) |
-| YOUTUBE_API_KEY | [`Youtube token`](https://console.cloud.google.com/apis) |
+| YOUTUBE_API_KEY = | [`Youtube token`](https://console.cloud.google.com/apis) |
 
-## Development setup
+## How to start the bot
 
-Describe how to install all development dependencies and how to run an automated test-suite of some kind. Potentially do this for multiple platforms.
+Right after running the update and compiling the code, just follow the following steps for the bot to start working.
 
 ```sh
-make install
-npm test
+cd naturebot
+node ./src/bot.js
 ```
+If your console returns the bot's name along with its id "name#0000", it means the bot is working properly!
 
 ## Contributing
 
