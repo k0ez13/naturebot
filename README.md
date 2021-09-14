@@ -24,9 +24,9 @@ npm update && install
 | Vars | token |
 | --- | --- |
 | DISCORD_BOT_PREFIX =| n!  |
-| DISCORD_BOT_TOKEN = | [`Get your token`](https://discord.com/developers/applications) |
-| STEAM = (Get your token)| |
-| YOUTUBE_API_KEY = (Get your token)| |
+| DISCORD_BOT_TOKEN = | [`Bot token`](https://discord.com/developers/applications) |
+| STEAM = | [`Steam token`](https://steamcommunity.com/dev/apikey) |
+| YOUTUBE_API_KEY | [`Youtube token`](https://console.cloud.google.com/apis) |
 
 ## Development setup
 
