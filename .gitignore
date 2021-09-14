@@ -1,7 +1,6 @@
 .env
 node_modules
 logs
-
 package-lock.json
 colours.json
 application.yml
