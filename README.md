@@ -5,6 +5,8 @@
 [![Build Status][travis-image]][travis-url]
 [![Downloads Stats][npm-downloads]][npm-url]
 
+This bot is made with the Discord library in version v12, it was used a very simple way to understand its operation, the functions are separated in their proper classes and definitions for better understanding and organization.
+
 ![](header.png)
 
 ## Installation
