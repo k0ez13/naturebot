@@ -42,7 +42,7 @@ If your console returns the bot's name along with its id "name#0000", it means t
 | Misc [20]: | corona, creator, 8ball, gnome, help, instagram, math, meme, oceanman, ping, pokemon, poll, roll, serverinfo, steam, uptime, urban, userinfo, weather, avatar |
 | Mod [7]: | ban, clear, kick, mute, say, unmute, hoststats |
 | Music [9]: | leave, loop, nowplaying, pause, play, queue, remove, skip |
-| NSFW [13]: | 4k, anal, ass, hentai, hkitsune, hneko, holo, kemonomimi, neko, pussy, boobs, hboobs, kanna |
+|NSFW [13]: | 4k, anal, ass, hentai, hkitsune, hneko, holo, kemonomimi, neko, pussy, boobs, hboobs, kanna |
 
 ## Contributing
 
