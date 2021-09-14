@@ -23,8 +23,8 @@ npm update && install
 
 | Vars | token |
 | --- | --- |
-| DISCORD_BOT_PREFIX = n! | |
-| DISCORD_BOT_TOKEN = [`Get your token`](https://discord.com/developers/applications) | |
+| DISCORD_BOT_PREFIX =| n!  |
+| DISCORD_BOT_TOKEN = | [`Get your token`](https://discord.com/developers/applications) |
 | STEAM = (Get your token)| |
 | YOUTUBE_API_KEY = (Get your token)| |
 
