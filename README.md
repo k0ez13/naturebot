@@ -5,8 +5,6 @@
 [![Build Status][travis-image]][travis-url]
 [![Downloads Stats][npm-downloads]][npm-url]
 
-With administration functions, music player and many other functions.
-
 ![](header.png)
 
 ## Installation
