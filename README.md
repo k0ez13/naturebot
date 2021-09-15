@@ -11,7 +11,7 @@ This bot is made with the Discord library in version v12, it was used a very sim
 
 ## Installation
 
-OS X & Linux & Windows:
+OS X, Linux & Windows:
 
 ```sh
 git clone https://github.com/k0ez13/naturebot.git
