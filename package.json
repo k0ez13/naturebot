@@ -28,7 +28,7 @@
     "bufferutil": "^4.0.1",
     "common-tags": "^1.8.0",
     "dateformat": "^3.0.3",
-    "discord.js": "^12.1.1",
+    "discord.js": "^12.1.1",
     "dotenv": "^8.2.0",
     "node-fetch": "^2.6.0",
     "novelcovid": "^2.2.0",
@@ -38,9 +38,9 @@
     "urban": "^0.3.2",
     "user-instagram": "^2.0.9",
     "weather-js": "^2.0.0",
-    "ytdl-core": "^4.9.1",
+    "ytdl-core": "^4.10.1",
     "ytdl-core-discord": "^1.3.1",
-    "ytpl": "^0.2.3"
+    "ytpl": "^2.2.3"
   }
 }
 
