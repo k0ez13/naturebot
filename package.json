@@ -19,7 +19,7 @@
   "author": "KoeZ <3",
   "license": "",
   "engines": {
-    "node": "12.x"
+    "node": "17.x"
   },
   "dependencies": {
     "os": "^0.1.2",
